@@ -29,6 +29,7 @@
           colors: {
             'basic-color': '#da373d',
             'title-color': '#131318',
+            'description-color': '#13131899',
           }
         }
       }
@@ -68,7 +69,7 @@
                 </div>
                 <div class="navbar-end gap-4">
                     <i class="fa-solid fa-magnifying-glass text-[#89898B]"></i>
-                    <div class=" flex justify-center items-center">
+                    <div class="flex justify-center items-center">
                         <a class="btn bg-basic-color py-4 px-6 text-white text-xl leading-3 font-bold">Get Ticket</a>
 
                     </div>
@@ -80,13 +81,13 @@
 
 
         <!-- Banner section starts here   -->
-        <section>
+        <section class="relative">
             <div class="carousel w-full h-[550px] rounded-md">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="./Images/1.png" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
+                    <a href="#slide4" class="btn btn-circle bg-title-color text-white border-none absolute left-16 top-52">❯</a> 
+                    <a href="#slide2" class="btn btn-circle bg-title-color text-white border-none top-52 absolute">❮</a>
                   </div>
                 </div> 
                 <div id="slide2" class="carousel-item relative w-full">
@@ -97,21 +98,33 @@
                   </div>
                 </div> 
                 <div id="slide3" class="carousel-item relative w-full">
-                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                  <img src="./Images/banner3.jpg" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a> 
                     <a href="#slide4" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
                 <div id="slide4" class="carousel-item relative w-full">
-                  <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                  <img src="./Images/banner4.jpg" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a> 
                     <a href="#slide1" class="btn btn-circle">❯</a>
                   </div>
                 </div>
               </div>
+
+              <!-- meet all the hero section  -->
+              <div class=" absolute bottom-8 right-8 bg-title-color h-36 w-96 p-8 rounded-lg text-white bg-title-color">
+                 <h3 class="text-xl font-bold">Meet all the heroes from the field</h3>
+                 <p class="text-[#FFFFFF99]" >Investing in one kid might give them that first opportunity or might be that one thing </p>
+                 <h3></h3>
+
+              </div>
+
         </section>
+         <!-- banner section ends here  -->
+
+         
 
        
     </header>
